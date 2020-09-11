@@ -1,0 +1,18 @@
+.about__header {
+    background-color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.about__content {
+    padding: 6rem;
+    background-color: whitesmoke;
+}
+
+.about__content p {
+    margin: 0;
+}
+
+.about__content p:first-child {
+    margin-bottom: 2rem;
+}

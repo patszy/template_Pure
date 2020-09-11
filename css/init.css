@@ -1,0 +1,18 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300&display=swap');
+
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import "about.css";
+
+body {
+    background-color: #1e1f23;
+    background-image: url(../assets/img/bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
