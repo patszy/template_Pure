@@ -1,0 +1,28 @@
+.contact {
+    padding: 2rem;
+}
+
+.contact__icons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact__icons .contact__icon {
+    font-size: 2rem;
+    margin-right: 50px;
+    color: rgb(72, 126, 176);
+}
+
+.contact__icons .contact__icon:last-child {
+    margin-right: 0;
+}
+
+.contact__icons .contact__icon:hover {
+    color: white;
+    text-shadow: 0 0 10px rgb(72, 126, 176);
+}
+
+.contact__icons .icon__label {
+    display: none;
+}

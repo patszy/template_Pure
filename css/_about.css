@@ -1,12 +1,11 @@
 .about__header {
     background-color: white;
-    padding: 4rem 2rem;
-    text-align: center;
 }
 
 .about__content {
     padding: 6rem;
     background-color: whitesmoke;
+    color: rgba(0, 0, 0, .5);
 }
 
 .about__content p {

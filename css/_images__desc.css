@@ -1,0 +1,42 @@
+.images__desc img {
+    object-fit: cover;
+}
+
+.images__desc .image__text,
+.images__desc .text__image {
+    display: flex;
+}
+
+.images__desc .image__text > *,
+.images__desc .text__image > * {
+    width: 50%;
+}
+
+.images__desc .text__image img {
+    order: 2;
+}
+
+.images__desc .image__desc {
+    padding: 4rem;
+}
+
+.images__desc .image__text .image__desc {
+    padding: 4rem;
+    background-color: white;
+}
+
+.images__desc .image__text .image__desc p {
+    color: rgba(0, 0, 0, .5)
+}
+
+.images__desc .text__image .image__desc {
+    background-color: rgb(30, 31, 35);
+}
+
+.images__desc .text__image .image__desc h3 {
+    color: white;
+}
+
+.images__desc .text__image .image__desc p {
+    color: rgba(255, 255, 255, 0.25);
+}

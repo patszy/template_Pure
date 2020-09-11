@@ -1,0 +1,35 @@
+.gallery {
+    padding: 6rem;
+    background-color: rgb(30, 31, 35);
+}
+
+.gallery .gallery__header {
+    background-color: rgb(18, 19, 21);
+}
+
+.gallery .gallery__header h2 {
+    color: white;
+}
+
+.gallery .gallery__header h2::after {
+    background-color: rgba(255, 255, 255, .125);
+}
+
+.gallery .gallery__header p {
+    color: rgba(255, 255, 255, .25);
+}
+
+.gallery .gallery__pictures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .gallery__picture {
+    flex-basis: 50%;
+    transition: .2s;
+}
+
+.gallery .gallery__picture:hover {
+    transform: scale(1.1);
+}

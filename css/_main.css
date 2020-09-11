@@ -3,8 +3,10 @@
     max-width: 90%;
     margin: 0 auto;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
 }
 
 .main__container img {
     width: 100%;
+    display: block;
 }
